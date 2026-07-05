@@ -1,0 +1,121 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#1f1d1d;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+}
+
+nav{
+    background:#5b0b82;
+    padding:15px;
+    }
+    
+    nav ul{
+    list-style:none;
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    text-align:center;
+    }
+    
+    nav a{
+    color:white;
+    text-decoration:none;
+    font-family:Arial, sans-serif;
+    }
+
+
+
+
+main{
+width:900px;
+margin:40px auto;
+background:#211e1e;
+padding:40px;
+}
+
+h1{
+text-align:center;
+color:#eedcff;
+font-size:70px;
+font-family:Georgia, serif;
+margin-bottom:50px;
+}
+
+h2{
+font-size:30px;
+margin-bottom:30px;
+}
+
+.pedido{
+border:1px solid gray;
+display:flex;
+align-items:center;
+padding:18px;
+margin-bottom:25px;
+}
+
+.pedido img{
+width:110px;
+height:110px;
+object-fit:cover;
+}
+
+.texto{
+margin-left:30px;
+width:470px;
+}
+
+.texto p{
+font-size:24px;
+}
+
+.texto h3{
+font-size:45px;
+margin-top:15px;
+}
+
+input[type="radio"]{
+width:30px;
+height:30px;
+margin-left:auto;
+accent-color:#9c9c9c;
+cursor:pointer;
+}
+
+.final{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-top:70px;
+}
+
+.total{
+font-size:40px;
+}
+
+.total span{
+border:1px solid gray;
+padding:5px 15px;
+font-size:30px;
+margin-left:15px;
+}
+
+button{
+width:320px;
+height:65px;
+border:none;
+background:#9d9d9d;
+color:white;
+font-size:30px;
+cursor:pointer;
+}
+
+button:hover{
+background:#b5b5b5;
+}
+
